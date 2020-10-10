@@ -6,4 +6,20 @@ public class CashbackHackService {
     public int remain(int amount) {
         return boundary - amount % boundary;
     }
+
+
+   // private int actual;
+    //
+    //    public int remain(int amount) {
+    //        if (boundary <= amount) {
+    //            return boundary - amount % boundary;
+    //        }
+    //        if (boundary > amount) {
+    //            return boundary - amount % boundary;
+    //        }
+    //        if (boundary == amount) {
+    //            return 0;
+    //        }
+    //        return actual;
+    //    }
 }
