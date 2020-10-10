@@ -1,11 +1,10 @@
 package ru.netology.service;
 
-
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class CashbackHackServiceTestJUnit4 {
+public class CashbackHackServiceJunitJupiterTest {
     CashbackHackService service = new CashbackHackService();
 
     @Test
