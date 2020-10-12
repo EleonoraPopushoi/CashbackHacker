@@ -27,11 +27,11 @@ public class CashbackHackServiceTestJUnit4 {
     // The test is frequently fail. The issue was published.
     @Test
     public void shouldReturn0For1000() {
-         int amount = 1000;
-         int actual = service.remain(amount);
-         int expected = 0;
-         assertEquals(actual, expected);
-     }
+        int amount = 1000;
+        int actual = service.remain(amount);
+        int expected = 0;
+        assertEquals(expected, actual);
+    }
 
     @Test
     public void shouldShowRemain100For900() {
